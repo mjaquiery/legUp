@@ -12,10 +12,8 @@ A Java program is provided for analysing the files in graph form, but manually l
   so that you can identify spikes by onset time alone and simply read off the rest of the data.
 
 ## How to use it
-Download [legUp_v2.zip](https://github.com/mjaquiery/legUp/raw/master/legUp_v2.zip) and extract it to a sensible 
-location.
-
-Run legUp_v2.exe located in the dist folder (.../legUp_v2/dist/legUp_v2.exe). Follow the onscreen instructions.
+Download [legUp_v2.exe](https://github.com/mjaquiery/legUp/raw/master/legUp_v2.exe) and run the program. You will 
+probably have to tell your operating system that it is safe. Once the program starts, follow the onscreen instructions.
 
 ## How it works
 The program does the following for each file specified:

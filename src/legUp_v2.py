@@ -410,8 +410,8 @@ d = MyDialog(root)
 if not d.answered:
     raise SystemExit(0)
 
-relativeSizeLimit = d.relativeSizeLimit
-spikeDurationLimit = d.spikeDurationLimit * 2
+relativeSizeLimit = int(d.relativeSizeLimit)
+spikeDurationLimit = int(d.spikeDurationLimit) * 2
 
 # Get .csv files to work with
 csvs = filedialog.askopenfilenames(parent=root, title="Select raw data files",
